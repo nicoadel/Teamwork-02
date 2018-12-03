@@ -1,0 +1,72 @@
+@import _font.sass
+@import _colors.sass
+
+@import _navbar.sass
+@import _hero.sass
+@import _course_content.sass
+@import _course_details.sass
+@import _trainer.sass
+@import _course_space.sass
+@import _course_formats.sass
+@import _testimonials.sass
+@import _news.sass
+@import _footer.sass
+
+body
+	min-width: 320px
+	overflow-x: hidden
+
+p, a
+	font-size: 3vw
+h1
+	font-size: 6vw
+h2
+	font-size: 5.5vw
+h3
+	font-size: 4.5vw
+h4
+	font-size: 4vw
+h5
+	font-size: 3.5vw
+a
+	color: $grey
+	&:hover
+		color: $light
+.content_l
+	width: 250px
+	float: left
+	margin-right: 15px
+	margin-bottom: 15px
+hr
+	border-top: 1px solid $dark
+	width: 90%
+.content_r
+	width: 250px
+	float: right
+	margin-left: 15px
+	margin-bottom: 15px
+
+nav .active
+	color: $red !important 
+button:hover
+	text-shadow: none !important
+
+.nowrap
+	white-space: nowrap
+
+@media screen and (min-width: 768px)
+	p, a
+		font-size: 24px
+	h1
+		font-size: 56px
+	h2
+		font-size: 48px
+	h3
+		font-size: 42px
+	h4
+		font-size: 36px
+	h5
+		font-size: 30px
+@media screen and (max-width: 320px)
+	body
+		overflow-x: auto

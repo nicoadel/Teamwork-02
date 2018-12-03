@@ -1,0 +1,33 @@
+$red: red
+$dark: #1A1B1F
+$light: lavender
+$grey: grey
+
+$shadow-light: 1px 1px 1px $light, -1px -1px 1px $light, 0 0 5px $light
+$shadow-dark: 1px 1px 1px $dark, -1px -1px 1px $dark, 0 0 5px $dark
+
+.text-light
+	color: $light !important
+.text-dark
+	color: $dark !important
+.bg-light
+	background: $light !important
+.bg-dark
+	background: $dark !important
+.white
+	color: $light
+	text-shadow: $shadow-dark
+.btn-outline-dark
+	color: $dark
+	background: none
+	border-color: $dark
+	&:hover
+		color: $light
+		background: $dark
+.btn-outline-light
+	color: $light
+	background: $dark
+	border-color: $light
+	&:hover
+		color: $dark
+		background: $light
